@@ -16,7 +16,7 @@ export default class User extends Component {
         if (this.props.Appstore.id !== null) {
             return (
                 <React.Fragment>
-                    <Message />
+                    {/* <Message /> */}
                     <Avatar />
                 </React.Fragment>
             );

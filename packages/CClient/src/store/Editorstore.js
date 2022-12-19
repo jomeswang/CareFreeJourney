@@ -45,7 +45,7 @@ class Editorstore {
                     this.type = this.article.type;
                     this.title = this.article.title;
 
-                    this.is_update = true;
+                    // this.is_update = true;
                     this.loading = false;
                 } else {
                     this.loading = false;
@@ -93,7 +93,7 @@ class Editorstore {
                 return /^.{50,}$/.test(value);
 
             case "type":
-                return value.length > 0;
+                return true;
 
             case "html":
                 return true;
@@ -148,6 +148,8 @@ class Editorstore {
                         is: true
                     });
                     window.clearTimeout(this.timeID);
+                    this.empty();
+                    history.back();
                 }, 1000);
             })
             .catch(({ err }) => {

@@ -4,7 +4,7 @@ import { observer, inject } from "mobx-react";
 import { toJS } from "mobx";
 import E from "wangeditor";
 import { app as ajax } from "@request";
-import Label from "./Label";
+// import Label from "./Label";
 
 @inject("Editorstore")
 @observer
@@ -45,7 +45,7 @@ export default class Write extends Component {
         return (
             <React.Fragment>
                 <div id="write" />
-                <Label />
+                {/* <Label /> */}
                 <button className="editor_submit" onClick={this.submit}>
                     创建文章
                 </button>

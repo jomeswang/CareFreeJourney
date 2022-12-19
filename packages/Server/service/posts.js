@@ -1,5 +1,6 @@
 const ObjectId = require("mongodb").ObjectId;
 const collection = require("../models/index");
+const adminService = require("./admin");
 
 class Posts {
     constructor() {
@@ -204,6 +205,10 @@ class Posts {
             article.state = 0; //0待审核，1拒绝，2通过
             article.date = new Date();
             await collection.checkposts.insertOne(article);
+            await adminService.agreeArticle({
+              check_posts_id: `${article._id}`,
+              state: 2
+            });
             return true;
         }
         throw new Error("createArticle");

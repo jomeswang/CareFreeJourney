@@ -37,9 +37,9 @@ export default class ArticleAction extends Component {
                 <div data-click="collect" data-index={index}>
                     收藏
                 </div>
-                <div data-click="forward" data-index={index}>
+                {/* <div data-click="forward" data-index={index}>
                     转发
-                </div>
+                </div> */}
                 {is_my_people ? (
                     <React.Fragment>
                         <div data-remove="remove" data-index={index}>删除</div>

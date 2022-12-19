@@ -83,8 +83,8 @@ class User {
             options.value = xss(options.value);
             options.password = xss(options.password);
 
-            assert(options.key, "用户名不能为空"); //空字符通过重写
-            assert(options.value, "用户名不能为空");
+            assert(options.key, "邮箱不能为空"); //空字符通过重写
+            assert(options.value, "邮箱不能为空");
             assert(options.password, "密码不能为空");
             const address = await axios.get(
                 `http://ip.taobao.com/service/getIpInfo.php?ip=${req.ip}`

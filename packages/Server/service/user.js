@@ -1,6 +1,7 @@
 const ObjectId = require("mongodb").ObjectId;
 const bcrypt = require("bcryptjs");
 const collection = require("../models/index");
+const adminService = require("./admin");
 
 class User {
     constructor() {
@@ -38,7 +39,7 @@ class User {
 
     async register(options, address) { //注册
         if (typeof options == "object" && typeof address == "object") {
-            options.avatar = "/avatar/dafault.png";
+            options.avatar = "/avatar/" + (Math.ceil(Math.random() * 20 + 1)) + '.jpg';
             options.date = new Date();
             options.followtype = []; //关注的标签
             options.followers = []; //其他用户关注我

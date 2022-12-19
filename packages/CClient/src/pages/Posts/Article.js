@@ -3,7 +3,7 @@ import { inject, observer } from "mobx-react";
 
 import PropTypes from "prop-types";
 
-import ArticleType from "./Type";
+// import ArticleType from "./Type";
 import ArticleAuthor from "./Author";
 import ArticleHtml from "./Html";
 import ArticleAction from "./Action";
@@ -22,9 +22,10 @@ export default class ArticleContainer extends Component {
         const { article, is_my_people, index } = this.props;
         const { read_article, read_comment } = this.props.Appstore.app;
         const user_id = this.props.Appstore.id;
+        // console.log(`article ${article} user_id ${user_id}`, article.like.includes(user_id));
         return (
             <article>
-                <ArticleType type={article.type} index={index} />
+                {/* <ArticleType type={article.type} index={index} /> */}
                 <ArticleAuthor author={article.author} index={index} />
                 <ArticleHtml
                     article={article}

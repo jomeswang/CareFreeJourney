@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx only-allow pnpm",
+    "dev:install": "cd packages/CClient && npm install && cd ../ManageClient && npm install && cd ../Server && npm install",
     "dev:server": "pnpm --filter \"@carefreejourney/server\" dev",
     "dev:client": "pnpm --filter \"@carefreejourney/CClient\" dev",
     "dev:manageClient": "pnpm --filter \"@carefreejourney/manageClient\" dev"

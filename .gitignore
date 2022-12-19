@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-dist
 .DS_Store
 node_modules
 coverage
@@ -18,12 +17,6 @@ pnpm-global/
 coverage/
 
 # production
-dist/
-build/
-.cache/
-.vscode/
-.idea
-
 # misc
 .DS_Store
 .env.local

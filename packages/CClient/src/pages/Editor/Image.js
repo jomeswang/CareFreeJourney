@@ -25,7 +25,7 @@ export default class Image extends Component {
     action(e) {
         e.stopPropagation();
         const { className } = e.target;
-        if (className == "icon_cameras" || className == "icon_camera") {
+        if (className == "icon_cameras" || className == 'editor_image' || className == "icon_camera") {
             this.refx.current.click();
         } else if (className == "icon_removes") {
             this.props.Editorstore.removeTitleImage();

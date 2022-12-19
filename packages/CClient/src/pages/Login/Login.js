@@ -18,16 +18,18 @@ export default class Login extends Component {
                     <li id="name">
                         <i className="icon_username" />
                         <input
+                          autoComplete="off"
                             type="text"
-                            name="name"
-                            placeholder="用户名或邮箱"
+                            name="email"
+                            placeholder="邮箱"
                             maxLength="20"
-                            value={this.props.state.name}
+                            value={this.props.state.email}
                         />
                     </li>
                     <li id="password">
                         <i className="icon_password" />
                         <input
+                            autoComplete = "off"    
                             type="password"
                             name="password"
                             placeholder="密码"

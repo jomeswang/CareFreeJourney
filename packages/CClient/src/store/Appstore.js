@@ -108,7 +108,7 @@ class Appstore {
                 if (p.posts.length > 0 && this.app.path === path) { //区分类型和搜索
                     this.setState("app", {
                         order: o.order,
-                        posts: this.app.posts.concat(p.posts),
+                        posts: page === 1 ? [].concat(p.posts): this.app.posts.concat(p.posts),
                         page: page + 1,
                         path: path,
                         update: false
@@ -123,6 +123,7 @@ class Appstore {
                         update: false
                     });
                 }
+                // console.log("p.posts", p.posts);
                 this.setState("app", { user: u.user, posts_loading: false });
                 this.setUserMessage(m, 1);
             });

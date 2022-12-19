@@ -29,12 +29,12 @@ export default class Actionview extends Component {
                                 个人主页
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/subscr/all">
                                 <i className="icon_label"/>
                                 标签管理
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link to="/setter/account">
                                 <i className="icon_set" />

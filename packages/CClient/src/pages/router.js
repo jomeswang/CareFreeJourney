@@ -6,18 +6,16 @@ import NotFound from "./404";
 import Login from "./Login";
 
 export default class Routers extends Component {
-    render() {
-        return (
-            <Router>
-                <div>
-                    <Switch>
-                        <Route path="/404" component={NotFound} />
-                        <Route path="/signin" component={Login} />
-                        <Route path="/signup" component={Login} />
-                        <Route component={App} />
-                    </Switch>
-                </div>
-            </Router>
-        );
-    }
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/404" component={NotFound} />
+          <Route path="/signin" component={Login} />
+          <Route path="/signup" component={Login} />
+          <Route component={App} />
+        </Switch>
+      </Router>
+    );
+  }
 }
