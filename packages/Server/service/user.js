@@ -1,7 +1,6 @@
 const ObjectId = require("mongodb").ObjectId;
 const bcrypt = require("bcryptjs");
 const collection = require("../models/index");
-const adminService = require("./admin");
 
 class User {
     constructor() {

@@ -13,6 +13,7 @@ export default class ArticleAuthor extends Component {
         const author = this.props.author[0];
         const index = this.props.index;
         return (
+            // eslint-disable-next-line react/no-unknown-property
             <div className="posts_author">
                 <Link to={`/people/${author._id}/dynamic`}>
                     <img src={author.avatar} data-hove="author" data-index={index} />

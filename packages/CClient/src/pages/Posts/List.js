@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { observer } from "mobx-react";
 import PropTypes from "prop-types";
-import Article from "./Article";
+import Article from "./Article.jsx";
 
 @observer
 export default class List extends Component {

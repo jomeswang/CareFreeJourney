@@ -52,7 +52,7 @@ class Posts {
             }
             return { followtype, following };
         }
-        throw new Error("getfollowtype");
+        throw new Error("请先登录再打开关注列表");
     }
 
     async getUserPostsList({ user_id, skip, followtype }) { //用户关注标签文章列表

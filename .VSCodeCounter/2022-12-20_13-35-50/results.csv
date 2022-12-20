@@ -1,0 +1,31 @@
+"filename", "language", "JavaScript", "Markdown", "HTML", "JSON", "JSON with Comments", "comment", "blank", "total"
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\.eslintrc.json", "JSON with Comments", 0, 0, 0, 0, 18, 0, 1, 19
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\README.md", "Markdown", 0, 9, 0, 0, 0, 0, 6, 15
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\config\index.js", "JavaScript", 13, 0, 0, 0, 0, 0, 0, 13
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\admin.js", "JavaScript", 249, 0, 0, 0, 0, 30, 25, 304
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\file.js", "JavaScript", 97, 0, 0, 0, 0, 0, 8, 105
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\posts.js", "JavaScript", 318, 0, 0, 0, 0, 2, 31, 351
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\user.js", "JavaScript", 308, 0, 0, 0, 0, 0, 35, 343
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\index.js", "JavaScript", 30, 0, 0, 0, 0, 17, 10, 57
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkError.js", "JavaScript", 8, 0, 0, 0, 0, 0, 0, 8
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLogin.js", "JavaScript", 7, 0, 0, 0, 0, 0, 1, 8
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLoginAdmin.js", "JavaScript", 7, 0, 0, 0, 0, 0, 1, 8
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkPath.js", "JavaScript", 5, 0, 0, 0, 0, 0, 1, 6
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\admin.js", "JavaScript", 26, 0, 0, 0, 0, 0, 1, 27
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\checkposts.js", "JavaScript", 63, 0, 0, 0, 0, 0, 2, 65
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\collect.js", "JavaScript", 47, 0, 0, 0, 0, 0, 1, 48
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\comment.js", "JavaScript", 52, 0, 0, 0, 0, 0, 1, 53
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\dynamic.js", "JavaScript", 39, 0, 0, 0, 0, 0, 2, 41
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\index.js", "JavaScript", 75, 0, 0, 0, 0, 18, 6, 99
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\label.js", "JavaScript", 43, 0, 0, 0, 0, 0, 2, 45
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\message.js", "JavaScript", 47, 0, 0, 0, 0, 0, 1, 48
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\posts.js", "JavaScript", 64, 0, 0, 0, 0, 0, 2, 66
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\models\user.js", "JavaScript", 110, 0, 0, 0, 0, 0, 1, 111
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\nodemon.json", "JSON", 0, 0, 0, 18, 0, 0, 0, 18
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\package.json", "JSON", 0, 0, 0, 35, 0, 0, 1, 36
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\public\index.html", "HTML", 0, 0, 11, 0, 0, 0, 1, 12
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\router.js", "JavaScript", 22, 0, 0, 0, 0, 0, 10, 32
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\service\admin.js", "JavaScript", 392, 0, 0, 0, 0, 1, 25, 418
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\service\posts.js", "JavaScript", 455, 0, 0, 0, 0, 1, 31, 487
+"e:\Class\大四上\web\CareFreeJourney\packages\Server\service\user.js", "JavaScript", 506, 0, 0, 0, 0, 5, 49, 560
+"Total", "-", 2983, 9, 11, 53, 18, 74, 255, 3403

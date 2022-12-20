@@ -1,0 +1,63 @@
+Date : 2022-12-20 13:35:50
+Directory : e:\Class\大四上\web\CareFreeJourney\packages\Server
+Total : 29 files,  3074 codes, 74 comments, 255 blanks, all 3403 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JavaScript         |         24 |      2,983 |         74 |        246 |      3,303 |
+| JSON               |          2 |         53 |          0 |          1 |         54 |
+| JSON with Comments |          1 |         18 |          0 |          1 |         19 |
+| HTML               |          1 |         11 |          0 |          1 |         12 |
+| Markdown           |          1 |          9 |          0 |          6 |         15 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                               |         29 |      3,074 |         74 |        255 |      3,403 |
+| config                                                                          |          1 |         13 |          0 |          0 |         13 |
+| controller                                                                      |          4 |        972 |         32 |         99 |      1,103 |
+| middlewares                                                                     |          4 |         27 |          0 |          3 |         30 |
+| models                                                                          |         10 |        566 |         18 |         19 |        603 |
+| public                                                                          |          1 |         11 |          0 |          1 |         12 |
+| service                                                                         |          3 |      1,353 |          7 |        105 |      1,465 |
++---------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                        | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\.eslintrc.json                 | JSON with Comments |         18 |          0 |          1 |         19 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\README.md                      | Markdown           |          9 |          0 |          6 |         15 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\config\index.js                | JavaScript         |         13 |          0 |          0 |         13 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\admin.js            | JavaScript         |        249 |         30 |         25 |        304 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\file.js             | JavaScript         |         97 |          0 |          8 |        105 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\posts.js            | JavaScript         |        318 |          2 |         31 |        351 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\user.js             | JavaScript         |        308 |          0 |         35 |        343 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\index.js                       | JavaScript         |         30 |         17 |         10 |         57 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkError.js      | JavaScript         |          8 |          0 |          0 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLogin.js      | JavaScript         |          7 |          0 |          1 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLoginAdmin.js | JavaScript         |          7 |          0 |          1 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkPath.js       | JavaScript         |          5 |          0 |          1 |          6 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\admin.js                | JavaScript         |         26 |          0 |          1 |         27 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\checkposts.js           | JavaScript         |         63 |          0 |          2 |         65 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\collect.js              | JavaScript         |         47 |          0 |          1 |         48 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\comment.js              | JavaScript         |         52 |          0 |          1 |         53 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\dynamic.js              | JavaScript         |         39 |          0 |          2 |         41 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\index.js                | JavaScript         |         75 |         18 |          6 |         99 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\label.js                | JavaScript         |         43 |          0 |          2 |         45 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\message.js              | JavaScript         |         47 |          0 |          1 |         48 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\posts.js                | JavaScript         |         64 |          0 |          2 |         66 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\user.js                 | JavaScript         |        110 |          0 |          1 |        111 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\nodemon.json                   | JSON               |         18 |          0 |          0 |         18 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\package.json                   | JSON               |         35 |          0 |          1 |         36 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\public\index.html              | HTML               |         11 |          0 |          1 |         12 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\router.js                      | JavaScript         |         22 |          0 |         10 |         32 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\admin.js               | JavaScript         |        392 |          1 |         25 |        418 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\posts.js               | JavaScript         |        455 |          1 |         31 |        487 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\user.js                | JavaScript         |        506 |          5 |         49 |        560 |
+| Total                                                                           |                    |      3,074 |         74 |        255 |      3,403 |
++---------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

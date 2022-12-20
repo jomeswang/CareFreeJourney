@@ -1,0 +1,130 @@
+Date : 2022-12-20 13:34:39
+Directory : e:\Class\大四上\web\CareFreeJourney
+Total : 72 files,  16476 codes, 133 comments, 1752 blanks, all 18361 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| YAML               |          2 |     10,610 |          0 |      1,279 |     11,889 |
+| JavaScript         |         52 |      4,912 |        116 |        361 |      5,389 |
+| CSS                |          1 |        462 |         17 |         69 |        548 |
+| JSON               |          5 |        202 |          0 |          4 |        206 |
+| HTML               |          5 |        114 |          0 |         13 |        127 |
+| Markdown           |          4 |        108 |          0 |         25 |        133 |
+| JSON with Comments |          3 |         68 |          0 |          1 |         69 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                          | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                             |         72 |     16,476 |        133 |      1,752 |     18,361 |
+| packages                                                                                      |         68 |      5,847 |        133 |        469 |      6,449 |
+| packages\CClient                                                                              |          9 |        406 |          3 |         34 |        443 |
+| packages\CClient\build                                                                        |          4 |        187 |          3 |         16 |        206 |
+| packages\CClient\config                                                                       |          1 |         27 |          0 |          2 |         29 |
+| packages\CClient\dist                                                                         |          1 |         16 |          0 |          3 |         19 |
+| packages\ManageClient                                                                         |         30 |      2,367 |         56 |        180 |      2,603 |
+| packages\ManageClient\build                                                                   |          4 |        187 |          3 |         16 |        206 |
+| packages\ManageClient\config                                                                  |          1 |         21 |          0 |          2 |         23 |
+| packages\ManageClient\dist                                                                    |          1 |         10 |          0 |          1 |         11 |
+| packages\ManageClient\src                                                                     |         21 |      2,046 |         53 |        156 |      2,255 |
+| packages\ManageClient\src\assets                                                              |          1 |        462 |         17 |         69 |        548 |
+| packages\ManageClient\src\assets\css                                                          |          1 |        462 |         17 |         69 |        548 |
+| packages\ManageClient\src\components                                                          |         11 |      1,229 |         36 |         57 |      1,322 |
+| packages\ManageClient\src\components\Content                                                  |         10 |      1,172 |         10 |         55 |      1,237 |
+| packages\ManageClient\src\components\Content\Chart                                            |          3 |        292 |          0 |          8 |        300 |
+| packages\ManageClient\src\components\Content\Label                                            |          2 |        387 |          6 |         19 |        412 |
+| packages\ManageClient\src\components\Sider                                                    |          1 |         57 |         26 |          2 |         85 |
+| packages\ManageClient\src\pages                                                               |          3 |        171 |          0 |         10 |        181 |
+| packages\ManageClient\src\pages\Login                                                         |          2 |        104 |          0 |          6 |        110 |
+| packages\ManageClient\src\store                                                               |          1 |         12 |          0 |          3 |         15 |
+| packages\ManageClient\src\template                                                            |          3 |        146 |          0 |         14 |        160 |
+| packages\Server                                                                               |         29 |      3,074 |         74 |        255 |      3,403 |
+| packages\Server\config                                                                        |          1 |         13 |          0 |          0 |         13 |
+| packages\Server\controller                                                                    |          4 |        972 |         32 |         99 |      1,103 |
+| packages\Server\middlewares                                                                   |          4 |         27 |          0 |          3 |         30 |
+| packages\Server\models                                                                        |         10 |        566 |         18 |         19 |        603 |
+| packages\Server\public                                                                        |          1 |         11 |          0 |          1 |         12 |
+| packages\Server\service                                                                       |          3 |      1,353 |          7 |        105 |      1,465 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                      | language           | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\Class\大四上\web\CareFreeJourney\README.md                                                    | Markdown           |          4 |          0 |          3 |          7 |
+| e:\Class\大四上\web\CareFreeJourney\package.json                                                 | JSON               |         15 |          0 |          1 |         16 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\.eslintrc.json                              | JSON with Comments |         25 |          0 |          0 |         25 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\README.md                                   | Markdown           |         82 |          0 |         12 |         94 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\build\dev-server.js                         | JavaScript         |         35 |          0 |          8 |         43 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\build\webpack.base.js                       | JavaScript         |         69 |          0 |          3 |         72 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\build\webpack.dev.js                        | JavaScript         |         34 |          2 |          3 |         39 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\build\webpack.prod.js                       | JavaScript         |         49 |          1 |          2 |         52 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\config\index.js                             | JavaScript         |         27 |          0 |          2 |         29 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\dist\index.html                             | HTML               |         16 |          0 |          3 |         19 |
+| e:\Class\大四上\web\CareFreeJourney\packages\CClient\package.json                                | JSON               |         69 |          0 |          1 |         70 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\.eslintrc.json                         | JSON with Comments |         25 |          0 |          0 |         25 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\README.md                              | Markdown           |         13 |          0 |          4 |         17 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\build\dev-server.js                    | JavaScript         |         30 |          0 |          9 |         39 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\build\webpack.base.js                  | JavaScript         |         70 |          0 |          2 |         72 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\build\webpack.dev.js                   | JavaScript         |         34 |          2 |          2 |         38 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\build\webpack.prod.js                  | JavaScript         |         53 |          1 |          3 |         57 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\config\index.js                        | JavaScript         |         21 |          0 |          2 |         23 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\dist\index.html                        | HTML               |         10 |          0 |          1 |         11 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\package.json                           | JSON               |         65 |          0 |          1 |         66 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\assets\css\app.css                 | CSS                |        462 |         17 |         69 |        548 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Article.js      | JavaScript         |         61 |          0 |          2 |         63 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Avatar.js       | JavaScript         |         48 |          0 |          2 |         50 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Breadcrumbs.js  | JavaScript         |         28 |          0 |          2 |         30 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Chart\Bar.js    | JavaScript         |         84 |          0 |          2 |         86 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Chart\Line.js   | JavaScript         |         85 |          0 |          2 |         87 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Chart\index.js  | JavaScript         |        123 |          0 |          4 |        127 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Label\Create.js | JavaScript         |        185 |          0 |          6 |        191 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Label\index.js  | JavaScript         |        202 |          6 |         13 |        221 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\Table.js        | JavaScript         |        335 |          4 |         20 |        359 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Content\index.js        | JavaScript         |         21 |          0 |          2 |         23 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\components\Sider\index.js          | JavaScript         |         57 |         26 |          2 |         85 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\index.js                           | JavaScript         |          8 |          0 |          2 |         10 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\pages\App.js                       | JavaScript         |         67 |          0 |          4 |         71 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\pages\Login\Form.js                | JavaScript         |         86 |          0 |          4 |         90 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\pages\Login\index.js               | JavaScript         |         18 |          0 |          2 |         20 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\router.js                          | JavaScript         |         18 |          0 |          1 |         19 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\store\index.js                     | JavaScript         |         12 |          0 |          3 |         15 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\template\chart.html                | HTML               |         67 |          0 |          7 |         74 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\template\chart.js                  | JavaScript         |         69 |          0 |          6 |         75 |
+| e:\Class\大四上\web\CareFreeJourney\packages\ManageClient\src\template\index.html                | HTML               |         10 |          0 |          1 |         11 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\.eslintrc.json                               | JSON with Comments |         18 |          0 |          1 |         19 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\README.md                                    | Markdown           |          9 |          0 |          6 |         15 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\config\index.js                              | JavaScript         |         13 |          0 |          0 |         13 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\admin.js                          | JavaScript         |        249 |         30 |         25 |        304 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\file.js                           | JavaScript         |         97 |          0 |          8 |        105 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\posts.js                          | JavaScript         |        318 |          2 |         31 |        351 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\controller\user.js                           | JavaScript         |        308 |          0 |         35 |        343 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\index.js                                     | JavaScript         |         30 |         17 |         10 |         57 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkError.js                    | JavaScript         |          8 |          0 |          0 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLogin.js                    | JavaScript         |          7 |          0 |          1 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkLoginAdmin.js               | JavaScript         |          7 |          0 |          1 |          8 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\middlewares\checkPath.js                     | JavaScript         |          5 |          0 |          1 |          6 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\admin.js                              | JavaScript         |         26 |          0 |          1 |         27 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\checkposts.js                         | JavaScript         |         63 |          0 |          2 |         65 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\collect.js                            | JavaScript         |         47 |          0 |          1 |         48 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\comment.js                            | JavaScript         |         52 |          0 |          1 |         53 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\dynamic.js                            | JavaScript         |         39 |          0 |          2 |         41 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\index.js                              | JavaScript         |         75 |         18 |          6 |         99 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\label.js                              | JavaScript         |         43 |          0 |          2 |         45 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\message.js                            | JavaScript         |         47 |          0 |          1 |         48 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\posts.js                              | JavaScript         |         64 |          0 |          2 |         66 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\models\user.js                               | JavaScript         |        110 |          0 |          1 |        111 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\nodemon.json                                 | JSON               |         18 |          0 |          0 |         18 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\package.json                                 | JSON               |         35 |          0 |          1 |         36 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\public\index.html                            | HTML               |         11 |          0 |          1 |         12 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\router.js                                    | JavaScript         |         22 |          0 |         10 |         32 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\admin.js                             | JavaScript         |        392 |          1 |         25 |        418 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\posts.js                             | JavaScript         |        455 |          1 |         31 |        487 |
+| e:\Class\大四上\web\CareFreeJourney\packages\Server\service\user.js                              | JavaScript         |        506 |          5 |         49 |        560 |
+| e:\Class\大四上\web\CareFreeJourney\pnpm-lock.yaml                                               | YAML               |     10,608 |          0 |      1,279 |     11,887 |
+| e:\Class\大四上\web\CareFreeJourney\pnpm-workspace.yaml                                          | YAML               |          2 |          0 |          0 |          2 |
+| Total                                                                                         |                    |     16,476 |        133 |      1,752 |     18,361 |
++-----------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

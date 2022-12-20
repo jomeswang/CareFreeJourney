@@ -38,21 +38,21 @@ export default class Author extends Component {
         this.props.Appstore.setState("hove", { opacity: 0 });
     }
     render() {
-        if (this.state.author === null) {
+        // if (this.state.author === null) {
             return <div />;
-        }
-        const { author } = this.state;
-        const is_follow = this.props.Appstore.following.includes(this.state.author._id);
-        return (
-            <div
-                className="author"
-                onMouseLeave={this.mouseLeave}
-                onMouseOver={this.mouseover}>
-                <Avatar author={author} />
-                <List posts={author.posts} />
-                <Follow author={author} follow={this.follow} is_follow={is_follow} />
-            </div>
-        );
+        // }
+        // const { author } = this.state;
+        // const is_follow = this.props.Appstore.following.includes(this.state.author._id);
+        // return (
+        //     <div
+        //         className="author"
+        //         onMouseLeave={this.mouseLeave}
+        //         onMouseOver={this.mouseover}>
+        //         <Avatar author={author} />
+        //         <List posts={author.posts} />
+        //         <Follow author={author} follow={this.follow} is_follow={is_follow} />
+        //     </div>
+        // );
     }
 
     componentDidMount() {

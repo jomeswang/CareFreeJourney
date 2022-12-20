@@ -9,7 +9,7 @@ export default class SwitchLike extends Component {
     render() {
         const link = [
             { path: "/setter/account", type: "个人资料" },
-            { path: "/setter/password", type: "修改密码" }
+            // { path: "/setter/password", type: "修改密码" }
         ];
         const list = link.map((elem) => {
             return (

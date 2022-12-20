@@ -149,7 +149,8 @@ class Editorstore {
                     });
                     window.clearTimeout(this.timeID);
                     this.empty();
-                    history.back();
+                    location.href = '/';
+                    // history.back();
                 }, 1000);
             })
             .catch(({ err }) => {

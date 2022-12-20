@@ -24,7 +24,7 @@ export default class Index extends Component {
             is_create: false,
             page: 1, //滚动加载size
             name: "",
-            image: "/collect/dafault.png",
+            image: "/avatar/1.jpg",
             loading: true
         };
 
