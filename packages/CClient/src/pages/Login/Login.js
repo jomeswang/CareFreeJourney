@@ -18,7 +18,7 @@ export default class Login extends Component {
                     <li id="name">
                         <i className="icon_username" />
                         <input
-                          autoComplete="off"
+                            autoComplete="off"
                             type="text"
                             name="email"
                             placeholder="邮箱"
@@ -29,7 +29,7 @@ export default class Login extends Component {
                     <li id="password">
                         <i className="icon_password" />
                         <input
-                            autoComplete = "off"    
+                            autoComplete="off"    
                             type="password"
                             name="password"
                             placeholder="密码"
